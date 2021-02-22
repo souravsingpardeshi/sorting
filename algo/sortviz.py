@@ -148,6 +148,6 @@ def sort():
 					    repeat=False)
     except:
         pass
-#st.pyplot(fig)
+    st.pyplot(fig)
     plt.title(choice)
     plt.show()
