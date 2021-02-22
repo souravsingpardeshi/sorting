@@ -1,4 +1,2 @@
-matplotlib
 streamlit
-numpy
-tkinter
+matplotlib
