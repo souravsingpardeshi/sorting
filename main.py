@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 #import tkinter as tk
 from matplotlib.animation import FuncAnimation
 import matplotlib as mp
-mp.use('TkAgg')
+#mp.use('TkAgg')
 import numpy as np
 import random
 import streamlit as st
