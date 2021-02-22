@@ -6,7 +6,7 @@ import matplotlib as mp
 import numpy as np
 import random
 import streamlit as st
-import algo.sortviz
+import algo.sortviz as srt
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
@@ -18,4 +18,4 @@ choice = st.sidebar.selectbox("select choice",alg)
 if choice == "Home":
     st.write("""some shit goes here""")
 elif choice == "sorting":
-    sort()
+    srt.sort()
