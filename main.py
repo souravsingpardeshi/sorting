@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-import tk
+import _tkinter as tk
 from matplotlib.animation import FuncAnimation
 import matplotlib as mp
 mp.use('TkAgg')
