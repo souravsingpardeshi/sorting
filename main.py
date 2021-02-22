@@ -6,7 +6,7 @@ mp.use('TkAgg')
 import numpy as np
 import random
 import streamlit as st
-from sortviz import *
+from algo.sortviz import *
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>',unsafe_allow_html=True)
