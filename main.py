@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-matplotlib.use('TkAgg')
+import matplotlib as mp
+mp.use('TkAgg')
 import numpy as np
 import random
 import streamlit as st
